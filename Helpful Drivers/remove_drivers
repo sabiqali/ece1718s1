@@ -1,0 +1,5 @@
+for driver in *.ko; do
+   echo "removing: $driver"
+   rmmod $driver
+done
+
